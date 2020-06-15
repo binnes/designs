@@ -25,7 +25,7 @@ The test case can describe:
 
 ## Requirements
 
-In traditional programming there are many test frameworks and the functionality needed to property test code is quite well understood (visit [Mocha](https://mochajs.org) to see the typical features offered by a Javascript test framework).  However, the use of test tools in low-code development environments is less well defined, but the need for a thorough testing capability still exists.
+In traditional programming there are many test frameworks and the functionality needed to properly test code is quite well understood (visit [Mocha](https://mochajs.org) to see the typical features offered by a Javascript test framework).  However, the use of test tools in low-code development environments is less well defined, but the need for a thorough testing capability still exists.
 
 This design should deliver the following features/functionality:
 
@@ -55,7 +55,7 @@ A single node should be able to be tested in isolation.  Certain nodes, such as 
 
 ### Flow testing
 
-Rather then testing a single node the flow test will test a flow as a whole.  Here an input node in the flow will be selected as the starting node for a test and a msg object will be specified to originate from the starting node.  This will allow the flow to be tested end to end.
+Rather than testing a single node the flow test will test a flow as a whole.  Here an input node in the flow will be selected as the starting node for a test and a msg object will be specified to originate from the starting node.  This will allow the flow to be tested end to end.
 
 - The test specification should permit some setup to occur before testing starts, such as setting environment variables or initialising context objects
 - The test defines the starting node and the message the starting node will output
